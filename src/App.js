@@ -10,7 +10,7 @@ export default function App() {
           <img src={book} className="App-book img-fluid" alt="book" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
           <small>
