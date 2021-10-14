@@ -1,4 +1,4 @@
-import book from "./book.jpg";
+import strawhat2 from "./strawhat2.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,20 +7,33 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={book} className="App-book img-fluid" alt="book" />
+          <h1>Dic•tio•na•ry</h1>
+          <img
+            src={strawhat2}
+            className="App-strawhat img-fluid"
+            alt="strawhat"
+          />
         </header>
         <main>
           <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
           <small>
-            This project was coded by Jacky and is{" "}
+            This project was coded by{" "}
+            <a
+              href="https://de.linkedin.com/in/dr-jacqueline-chabrny-6a1273149"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Jacqueline Chabrny
+            </a>{" "}
+            and is open-sourced on{" "}
             <a
               href="https://github.com/jchabrny/dictionary-project"
               target="_blank"
               rel="noopener noreferrer"
             >
-              open-sourced on GitHub
+              GitHub
             </a>
           </small>
         </footer>
