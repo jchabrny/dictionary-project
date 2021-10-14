@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dic•tio•na•ry</h1>
+          <h1>Dic•tion•ar•y</h1>
           <img
             src={strawhat2}
             className="App-strawhat img-fluid"
