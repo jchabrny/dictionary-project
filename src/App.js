@@ -1,4 +1,3 @@
-import strawhat2 from "./strawhat2.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -8,11 +7,6 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <h1>Dic•tion•ar•y</h1>
-          <img
-            src={strawhat2}
-            className="App-strawhat img-fluid"
-            alt="strawhat"
-          />
         </header>
         <main>
           <Dictionary defaultKeyword="sunrise" />
